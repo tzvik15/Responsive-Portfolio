@@ -335,6 +335,18 @@ hr {
 }
   
 
+.contactbox {
+    margin-top:150px;
+    max-width:600px;
+}
+input {
+    max-width:530px;
+}
+
+textarea {
+    max-width:530px;
+}
+
 
 
 
@@ -375,7 +387,7 @@ display:block;
     margin-top:150px;
     overflow-wrap:break-word;
     word-wrap:break-word;
-    width:250px;
+    width:260px;
     height:1100px;
     
 }
@@ -424,6 +436,25 @@ display:block;
 }
 footer {position:absolute;
 bottom:-1000px;}
+
+.contactbox {
+    margin-top:150px;
+    max-width:300px;
+}
+input {
+    max-width:230px;
+}
+
+textarea {
+    max-width:230px;
+}
+
+
+
+
+
+
+
 }
 
 
@@ -519,6 +550,18 @@ bottom:-1000px;}
 
 
 
+        .contactbox {
+            margin-top:50px;
+            max-width:600px;
+        }
+        input {
+            max-width:530px;
+        }
+        
+        textarea {
+            max-width:530px;
+        }
+        
 
 
 
