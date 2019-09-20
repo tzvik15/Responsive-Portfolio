@@ -229,129 +229,215 @@ hr {
      
   }
  
-  @media screen and (min-width:641px) and (max-width:768px) {
-
+  @media screen and (min-width:769px) and (max-width:980px) {
 
     #title {
-
         position:static;
-        left:0;
-        display:block;
-    margin-left:-400px;
-    
-    
-}
-        #subtitle {
-        
-        text-align: left;
-        padding-bottom:5px;
-        margin-bottom:5px;
-        position:static;
-        left:1;
-        display:block;
         float:left;
-        margin-top:-75px;
-        margin-left:310px;
-        padding-bottom:55px;
-        padding-top:15px;
-        background-color:white;
-        
-        
-        }
-        .navigation {min-width:100%;
-         
-          margin-left:0px;
-          text-align:left;
-          padding-top:5px;
-          
-          padding-bottom:5px;
-          position:static;
-          left:0;
-          display:block;
-          margin-top:-40px;
-          text-align:center;
-          float:left;
-          
-        
-        
-        }
-        .about {
-            margin-top:150px;
-            overflow-wrap:break-word;
-            word-wrap:break-word;
-            width:600px;
-            height:550px;
-            
-        }
-        #pOne{ float:left;
-            position:absolute;
-            top:100px;
-            right: 20px;
-            max-width:350px;
-            overflow-wrap:break-word;
-            word-wrap:break-word;
-        }
-        #pTwo{
-            float:none;
-            position:absolute;
-            top:180px;
-            right:20px;
-            max-width:350px;
-            overflow-wrap:break-word;
-            word-wrap:break-word;
-        }
-        #pThree{
-            float:none;
-            position:absolute;
-            top:320px;
-            max-width:600px;
-            overflow-wrap:break-word;
-            word-wrap:break-word;
-        
-        }
-        
-        #pFour{
-            float:none;
-            position:absolute;
-            top:370px;
-            max-width:600px;
-            overflow-wrap:break-word;
-            word-wrap:break-word;
-            margin-left:-20px;
-        }
-        #pFive{
-            float:none;
-            position:absolute;
-            top:450px;
-            max-width:600px;
-            overflow-wrap:break-word;
-            word-wrap:break-word;
-            margin-left:-20px;
-        }
-        footer {position:absolute;
-        bottom:-440px;}
-
-
+        display:block;
+    }
+    #subtitle {
+    text-align: left;
+    margin-top:30px;
+    position:static;
+    left:0;
+    display:block;
+    float:left;
+    }
+    .navigation {
+    min-width:100%;
+    margin-left:10px;
+    padding-top:5px;
+    margin-top:40px;
+    position:static;
+    left:0;
+    display:block;
+    }
+    .about {
+    margin-top:50px;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    width:750px;
+    height:530px;
+    }
+    #pOne { 
+    float:none;
+    position:absolute;
+    top:100px;
+    right:10px;
+    max-width:500px;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    }
+    #pTwo{
+    float:none;
+    position:absolute;
+    top:190px;
+    right:10px;
+    max-width:500px;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    }
+    #pThree{
+    float:none;
+    position:absolute;
+    top:300px;
+    max-width:700px;
+    margin-left:20px;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    }
+    #pFour{
+    float:none;
+    position:absolute;
+    top:350px;
+    max-width:720px;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    }
+    #pFive{
+    float:none;
+    position:absolute;
+    top:420px;
+    max-width:700px;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    }
+    footer {
+    position:absolute;
+    bottom:-350px;
+    }
+    .contactbox {
+    max-width:600px;
+    }
+    input {
+    max-width:530px;
+    }
+    textarea {
+    max-width:530px;
+    }
+    #placeholders {
+    margin-top:50px;
+    }
+    #contact {
+    margin-top:50px;
+    }
 }
-  
 
-.contactbox {
+
+
+
+
+
+
+  @media screen and (min-width:641px) and (max-width:768px) {
+    #title {
+    position:static;
+    left:0;
+    display:block;
+    margin-left:-400px;   
+    }
+    #subtitle {
+    text-align: left;
+    padding-bottom:5px;
+    margin-bottom:5px;
+    position:static;
+    left:1;
+    display:block;
+    float:left;
+    margin-top:-75px;
+    margin-left:310px;
+    padding-bottom:55px;
+    padding-top:15px;
+    background-color:white;
+    }
+    .navigation {min-width:100%;
+    margin-left:0px;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:5px;
+    position:static;
+    left:0;
+    display:block;
+    margin-top:-40px;
+    text-align:center;
+    float:left;
+    }
+    .about {
+    margin-top:150px;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    width:600px;
+    height:550px;
+    }
+    #pOne{ 
+    float:left;
+    position:absolute;
+    top:100px;
+    right: 20px;
+    max-width:350px;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    }
+    #pTwo{
+    float:none;
+    position:absolute;
+    top:180px;
+    right:20px;
+    max-width:350px;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    }
+    #pThree{
+    float:none;
+    position:absolute;
+    top:320px;
+    max-width:600px;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    }
+    #pFour{
+    float:none;
+    position:absolute;
+    top:370px;
+    max-width:600px;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    margin-left:-20px;
+    }
+    #pFive{
+    float:none;
+    position:absolute;
+    top:450px;
+    max-width:600px;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    margin-left:-20px;
+    }
+    footer {
+    position:absolute;
+    bottom:-440px;
+    }
+    .contactbox {
     margin-top:150px;
     max-width:600px;
-}
-input {
+    }
+    input {
     max-width:530px;
-}
-
-textarea {
+    }
+    textarea {
     max-width:530px;
-}
-
-
-
-
-
-
+    }
+    #placeholders {
+    margin-top:100px;
+    }
+    #contact {
+    margin-top:100px;
+    }
+    #box {
+    margin-top:100px;
+    }
+    }
 
   @media screen and (max-width:640px) {
 
@@ -360,16 +446,15 @@ textarea {
 
 position:static;
 left:0;
-display:block;}
+display:block;
+}
 #subtitle {
-
 text-align: left;
 padding-bottom:5px;
 margin-bottom:5px;
 position:static;
 left:0;
 display:block;
-
 }
 .navigation {min-width:100%;
  
@@ -381,15 +466,13 @@ display:block;
   position:static;
   left:0;
   display:block;
-
 }
 .about {
     margin-top:150px;
     overflow-wrap:break-word;
     word-wrap:break-word;
     width:260px;
-    height:1100px;
-    
+    height:1100px; 
 }
 #pOne{ float:none;
     position:absolute;
@@ -413,9 +496,7 @@ display:block;
     max-width:250px;
     overflow-wrap:break-word;
     word-wrap:break-word;
-
 }
-
 #pFour{
     float:none;
     position:absolute;
@@ -436,7 +517,6 @@ display:block;
 }
 footer {position:absolute;
 bottom:-1000px;}
-
 .contactbox {
     margin-top:150px;
     max-width:300px;
@@ -444,128 +524,27 @@ bottom:-1000px;}
 input {
     max-width:230px;
 }
-
 textarea {
     max-width:230px;
 }
-
-
-
-
-
-
-
+#placeholders {
+    height:870px;
+}
+#bassoonpic {
+float:none;
+position:absolute;
+top:600px;
+left:0px;
+}
+.btn1  {
+    width:56px;
+}
+.btn2 {
+    width:130px;
+}
+.btn3 {
+    width:100px;
+}
 }
 
 
-@media screen and (min-width:769px) and (max-width:980px) {
-
-
-    #title {
-        position:static;
-        float:left;
-        display:block;
-    }
-        
-        
-        #subtitle {
-        text-align: left;
-        margin-top:30px;
-        
-        position:static;
-        left:0;
-        display:block;
-        float:left;
-        }
-        .navigation {min-width:100%;
-         
-          margin-left:10px;
-          
-          padding-top:5px;
-          margin-top:40px;
-          
-          position:static;
-          left:0;
-          display:block;
-        
-        
-        }
-        .about {
-            margin-top:50px;
-            overflow-wrap:break-word;
-            word-wrap:break-word;
-            width:750px;
-            height:530px;
-            
-        }
-        #pOne{ float:none;
-            position:absolute;
-            top:100px;
-            right:10px;
-            max-width:500px;
-            overflow-wrap:break-word;
-            word-wrap:break-word;
-        }
-        #pTwo{
-            float:none;
-            position:absolute;
-            top:190px;
-            right:10px;
-            max-width:500px;
-            overflow-wrap:break-word;
-            word-wrap:break-word;
-        }
-        #pThree{
-            float:none;
-            position:absolute;
-            top:300px;
-            max-width:700px;
-            margin-left:20px;
-            overflow-wrap:break-word;
-            word-wrap:break-word;
-        
-        }
-        
-        #pFour{
-            float:none;
-            position:absolute;
-            top:350px;
-            max-width:720px;
-            overflow-wrap:break-word;
-            word-wrap:break-word;
-            
-        }
-        #pFive{
-            float:none;
-            position:absolute;
-            top:420px;
-            max-width:700px;
-            overflow-wrap:break-word;
-            word-wrap:break-word;
-            
-        }
-        footer {position:absolute;
-        bottom:-300px;}
-        }
-
-
-
-        .contactbox {
-            margin-top:50px;
-            max-width:600px;
-        }
-        input {
-            max-width:530px;
-        }
-        
-        textarea {
-            max-width:530px;
-        }
-        
-
-
-
-
-
-
-}
