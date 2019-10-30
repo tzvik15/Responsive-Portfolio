@@ -162,7 +162,77 @@ hr {
     text-decoration: none;
     display: inline-block;
 }
+#btn1 #bonezPop {
+    visibility: hidden;
+    width: 250px;
+    background-color: #883043;
+    color: #aa9e9e;
+    text-align: center;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+#btn1:hover #bonezPop {
+    visibility: visible;
+  }
+  #btn2 #pythonPop {
+    visibility: hidden;
+    width: 250px;
+    background-color: #883043;
+    color: #aa9e9e;
+    text-align: center;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+#btn2:hover #pythonPop {
+    visibility: visible;
+  }
 
+  #btn3 #weatherPop {
+    visibility: hidden;
+    width: 250px;
+    background-color: #883043;
+    color: #aa9e9e;
+    text-align: center;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+#btn3:hover #weatherPop {
+    visibility: visible;
+  }
+
+  #btn4 #bsnPop {
+    visibility: hidden;
+    width: 250px;
+    background-color: #883043;
+    color: #aa9e9e;
+    text-align: center;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+#btn4:hover #bsnPop {
+    visibility: visible;
+  }
+  
 #btn1 {
     padding-left: 53px;
     padding-right:53px;
