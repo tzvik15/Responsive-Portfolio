@@ -22,15 +22,16 @@
                 <p class="break">You can contact me directly by email <a href="mailto:bassoonester@gmail.com">HERE</a>, or by phone at 303.667.4813</p>
                 <p class="break">Alternately, feel free to fill out the contact box, and I will contact you back.</p>
             
-                    <form class="break" id="forming">
+                    <form class="break" id="forming" action="https://formspree.io/xvoplyvd" method="POST" target="_blank">
                     Name: <br>
-                    <input type="text" size="111%"><br>
+                    <input type="text" name="userName" size="111%" id="inputName"><br>
                     Email: <br>
-                    <input type="text" size="111%"><br>
+                    <input type="text" name="userMail" size="111%" id="inputMail"><br>
                     Messege:<br>
-                    <textarea rows="15" cols="100%">  
+                    <textarea name="messege" rows="15" cols="100%" id="inputText">  
                     </textarea> <br>
-                    <input type="submit" value="Submit" class="button">
+                    <input onclick="window.location.href = 'https://tzvik15.github.io/Responsive-Portfolio/index.html';" type="submit" value="Submit" class="button" id="submitBtn">
+                    
                 </form>
             </div>
             <footer>
@@ -38,5 +39,10 @@
             </footer>
         </div>
    </div> 
+   <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+   <script src="script.js"></script>
 </body>
 </html>
