@@ -434,12 +434,6 @@ hr {
     }
 }
 
-
-
-
-
-
-
   @media screen and (min-width:641px) and (max-width:768px) {
     #title {
     position:static;
@@ -679,4 +673,9 @@ left:0px;
 #bsnPic{
     max-width: 100%;
     max-height: 500px;
+}
+
+a:hover {
+    background-color:#883043;
+    color:white;
 }
