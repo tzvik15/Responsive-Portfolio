@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../assets/css/styles.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet'>
+    <title>Weather App</title>
+</head>
+<body class="body">
+    <div class="content">
+        <header class="head">
+            <h1 id="title" >Daniel Nester,</h1><h1 id="subtitle">STACKato Solutions</h1>
+            <nav class="navigation">
+                <a href="../index.html">About</a><span> |</span> <a href="../contact.html">Contact</a><span> |</span> <a href="../portfolio.html">Portfolio</a>
+            </nav>
+        </header>
+        <div class="body">
+            <div class="contactbox">
+                <img src="../assets/images/weatherFull.jpg" alt="screenshot of Monty Python quiz" id="weatherPic">
+                <h2>Weather App</h2>
+                <p class="break">An easy to use application for learning the weather in an inputed city.</p>
+                <p class="break">This app allows the user to input a city name, and click a "submit" button. When the button is clicked, an API call goes out and the current weather in the selected city is dynamically displayed. Behind the scenes, two more API calls are triggered in a promisory sequance, the first displaying the UV index for the selected city, and the second offering a 5-day weather forecast.</p>
+                <p class="break">Additional functionality is with a local storage method. Once a city is selected, the city is saved to local storage, up to five entries, and a new button is dynamically added to the page to allow for a quicker search. Upon page load, all unique items in local storage are dynamically added as buttons to the display.</p>
+                <h4 class="break">GitHub repository: <a href="https://github.com/tzvik15/Weather-App" target="_blank">HERE</a></h4>
+                <h4 class="break">Deployed site: <a href="https://tzvik15.github.io/Weather-App/" target="_blank">HERE</a></h4>
+            </div>
+
+
+
+
+
+        <footer id="boneFoot">
+            <p style="text-align: center;">Copyright Daniel Nester 2019</p> 
+        </footer>
+        </div>
+        <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+</html>

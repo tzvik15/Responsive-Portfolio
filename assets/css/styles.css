@@ -665,3 +665,18 @@ left:0px;
 #boneFoot{
     bottom:-350px;
 }
+
+#pythonPic{
+    max-width:100%;
+    max-height: 500px;
+}
+
+#weatherPic{
+    max-width: 100%;
+    max-height: 500px;
+}
+
+#bsnPic{
+    max-width: 100%;
+    max-height: 500px;
+}
