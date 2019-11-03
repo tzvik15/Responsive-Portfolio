@@ -17,3 +17,7 @@ This page includes links to four projects. When the user hovers their mouse over
 ### Projects
 
 Each of the project pages includes some information about the project, as well as a screen shot, and links to the GitHub repository and the deployed URL.
+
+#### Deployed URL
+
+https://tzvik15.github.io/Responsive-Portfolio/index.html
