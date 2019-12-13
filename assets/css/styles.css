@@ -140,7 +140,8 @@ hr {
 .btn1,
 .btn2,
 .btn3,
-.btn4 {
+.btn4,
+.btn5 {
   background-color: #883043;
   border: none;
   color: white;
@@ -238,6 +239,16 @@ hr {
   padding-left: 53px;
   padding-right: 53px;
 }
+#btn5 {
+  position: absolute;
+  left:20px;
+  padding-left: 59px;
+  padding-right: 59px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
 .container {
   position: relative;
   width: 50%;
@@ -259,6 +270,10 @@ hr {
 
 .container .btn1:hover {
   background-color: black;
+}
+.container .btn5:hover {
+  background-color: black;
+  cursor: pointer;
 }
 .container .btn2 {
   position: absolute;
@@ -327,8 +342,17 @@ hr {
   max-width: 100%;
   max-height: 500px;
 }
+#burgerpic {
+  position: absolute;
+  top: 104px;
+  left: 540px;
+  float: left;
+}
 #boneFoot {
   bottom: -350px;
+}
+#burgerFoot {
+  bottom: -250px;
 }
 #pythonPic {
   max-width: 100%;
@@ -356,6 +380,24 @@ a:hover {
 }
 #weatherFoot {
   bottom: -50px;
+}
+
+#btn5 #burgerPop {
+  visibility: hidden;
+  width: 250px;
+  background-color: #883043;
+  color: #aa9e9e;
+  text-align: center;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+#btn5:hover #burgerPop {
+  visibility: visible;
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {

@@ -13,3 +13,7 @@ $("#btn3").on("click", ()=>{
 $("#btn4").on("click", ()=>{
     window.location.href="projects/bassoon.html";
 })
+
+$("#btn5").on("click", ()=>{
+    window.location.href="projects/burger.html";
+})
