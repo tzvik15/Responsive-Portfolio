@@ -20,4 +20,4 @@ Each of the project pages includes some information about the project, as well a
 
 #### Deployed URL
 
-https:stackatosolutions.com
+https://stackatosolutions.com
