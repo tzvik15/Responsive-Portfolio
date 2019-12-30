@@ -241,7 +241,8 @@ hr {
 }
 #btn5 {
   position: absolute;
-  left:20px;
+  left:560px;
+  top:-470px;
   padding-left: 59px;
   padding-right: 59px;
   font-size: 16px;
@@ -357,7 +358,7 @@ hr {
 }
 #burgerpic {
   position: absolute;
-  top: 104px;
+  top: -467px;
   left: 540px;
   float: left;
   max-width: 960px;
@@ -715,17 +716,19 @@ a:hover {
     position: static;
     left: 0;
     display: block;
+    margin-bottom: 100px;
   }
   #subtitle {
     text-align: left;
     padding-bottom: 5px;
     margin-bottom: 5px;
-    position: static;
+    position: absolute;
+    top:100px;
     left: 0;
     display: block;
   }
   #box {
-    height: 1630px;
+    height: 1830px;
     width: 100%;
   }
   .navigation {
@@ -735,7 +738,8 @@ a:hover {
     padding-top: 5px;
     margin-top: 5px;
     padding-bottom: 5px;
-    position: static;
+    position: absolute;
+    top:200px;
     left: 0;
     display: block;
   }
@@ -750,7 +754,7 @@ a:hover {
   #pOne {
     float: none;
     position: absolute;
-    top: 350px;
+    top: 320px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -768,7 +772,7 @@ a:hover {
   #pThree {
     float: none;
     position: absolute;
-    top: 680px;
+    top: 710px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -777,7 +781,7 @@ a:hover {
   #pFour {
     float: none;
     position: absolute;
-    top: 820px;
+    top: 880px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -786,7 +790,7 @@ a:hover {
   #pFive {
     float: none;
     position: absolute;
-    top: 1050px;
+    top: 1150px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -795,7 +799,7 @@ a:hover {
   #pSix {
     float: none;
     position: absolute;
-    top: 1320px;
+    top: 1470px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -804,7 +808,7 @@ a:hover {
   #pSeven {
     float: none;
     position: absolute;
-    top: 1510px;
+    top: 1700px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -818,7 +822,7 @@ a:hover {
     bottom: -1330px;
   }
   .contactbox {
-    margin-top: 150px;
+    margin-top: 170px;
     max-width: 250px;
   }
   #contactFoot {
@@ -848,11 +852,16 @@ a:hover {
   }
   #burgerPic {
     max-width: 250px;
-    /* max-height: 250px; */
     float:none;
     position: absolute;
     left:0px;
     margin-bottom: 100px;
+  }
+  #burgerpic{
+    position: absolute;
+    bottom:-1800px;
+    top:460px;
+    left:0px;
   }
   .btn1 {
     width: 94px;
@@ -865,6 +874,11 @@ a:hover {
   }
   .btn4 {
     width: 100px;
+  }
+  #btn5{
+    position: absolute;
+    top:460px;
+    left:20px;
   }
   .break {
     max-width: 250px;
