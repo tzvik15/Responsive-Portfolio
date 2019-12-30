@@ -85,7 +85,7 @@ h2 {
   padding-bottom: 5px;
   float: left;
   height: 200px;
-  width: 200px;
+  width: 180px;
 }
 hr {
   margin-right: 20px;
@@ -322,6 +322,19 @@ hr {
   cursor: pointer;
   border-radius: 5px;
 }
+.container .btn5 {
+  position: absolute;
+  top: -2px;
+  left: 20px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
 
 .container .btn4:hover {
   background-color: black;
@@ -347,6 +360,7 @@ hr {
   top: 104px;
   left: 540px;
   float: left;
+  max-width: 960px;
 }
 #boneFoot {
   bottom: -350px;
@@ -668,7 +682,8 @@ a:hover {
   #btn1:hover #bonezPop,
   #btn2:hover #pythonPop,
   #btn3:hover #weatherPop,
-  #btn4:hover #bsnPop {
+  #btn4:hover #bsnPop,
+  #btn5:hover #burgerPop {
     visibility: hidden;
   }
   .break {
@@ -710,7 +725,7 @@ a:hover {
     display: block;
   }
   #box {
-    height: 1530px;
+    height: 1630px;
     width: 100%;
   }
   .navigation {
@@ -753,7 +768,7 @@ a:hover {
   #pThree {
     float: none;
     position: absolute;
-    top: 660px;
+    top: 680px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -762,7 +777,7 @@ a:hover {
   #pFour {
     float: none;
     position: absolute;
-    top: 780px;
+    top: 820px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -771,7 +786,7 @@ a:hover {
   #pFive {
     float: none;
     position: absolute;
-    top: 990px;
+    top: 1050px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -780,7 +795,7 @@ a:hover {
   #pSix {
     float: none;
     position: absolute;
-    top: 1220px;
+    top: 1320px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -789,7 +804,7 @@ a:hover {
   #pSeven {
     float: none;
     position: absolute;
-    top: 1410px;
+    top: 1510px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -800,7 +815,7 @@ a:hover {
   }
   footer {
     position: absolute;
-    bottom: -1230px;
+    bottom: -1330px;
   }
   .contactbox {
     margin-top: 150px;
@@ -831,6 +846,14 @@ a:hover {
     top: 570px;
     left: 0px;
   }
+  #burgerPic {
+    max-width: 250px;
+    /* max-height: 250px; */
+    float:none;
+    position: absolute;
+    left:0px;
+    margin-bottom: 100px;
+  }
   .btn1 {
     width: 94px;
   }
@@ -850,16 +873,17 @@ a:hover {
     margin-left: -10px;
   }
   #placeholders {
-    height: 1050px;
+    height: 1250px;
   }
   #portFoot {
     position: absolute;
-    bottom: -970px;
+    bottom: -1250px;
   }
   #btn1:hover #bonezPop,
   #btn2:hover #pythonPop,
   #btn3:hover #weatherPop,
-  #btn4:hover #bsnPop {
+  #btn4:hover #bsnPop,
+  #btn5:hover #burgerPop {
     visibility: hidden;
   }
   #boneFoot {
@@ -874,14 +898,21 @@ a:hover {
     position: absolute;
     bottom: -690px;
   }
+  #burgerFoot {
+    position: absolute;
+    bottom: -500px;
+  }
   #bsnFoot {
     position: absolute;
     bottom: -420px;
   }
   #indexFoot {
-    bottom: -1450px;
+    bottom: -1550px;
   }
   #contactFoot {
     bottom: -630px;
+  }
+  #p1{
+    margin-top:100px;
   }
 }
