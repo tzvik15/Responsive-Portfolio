@@ -1,3 +1,8 @@
+let firstTime = localStorage.getItem('first');
+
+const modal = document.getElementById("myModal");
+const span = document.getElementsByClassName("close-btn")[0];
+
 $("#btn1").on("click", ()=>{
     window.location.href ="projects/bonez.html";
 })
@@ -17,3 +22,12 @@ $("#btn4").on("click", ()=>{
 $("#btn5").on("click", ()=>{
     window.location.href="projects/burger.html";
 })
+
+localStorage.setItem('first', "nope")
+if(firstTime == null){
+  modal.style.display = "block";
+  };
+
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
