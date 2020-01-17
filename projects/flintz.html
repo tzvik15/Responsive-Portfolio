@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../assets/css/styles.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet'>
+    <title>Flint'z Skinz</title>
+</head>
+<body class="body">
+    <div class="content">
+        <header class="head">
+            <h1 id="title" >Daniel Nester,</h1><h1 id="subtitle">STACKato Solutions</h1>
+            <nav class="navigation">
+                <a href="../index.html">About</a><span> |</span> <a href="../contact.html">Contact</a><span> |</span> <a href="../portfolio.html">Portfolio</a>
+            </nav>
+        </header>
+        <div class="body">
+            <div class="contactbox" id="flintBox">
+                <img src="../assets/images/flintzFull.jpg" alt="screenshot of Flintz app" id="flintPic">
+                <h2>Flint'z Skinz</h2>
+                <p class="break" >A full-stack interactive "paint-brush" style app following the ORM model that utilizes a SQL database to allow users to save and load past drawings. Drawings can be recreated as an illusion of stop-motion animation. Includes an outside API call for random background image.</p>
+                <p class="break">The user chooses chooses the color they want to doodle with, and can draw upon the canvas.</p>
+                <p class="break">When the "record" button is pressed, the user is prompted to enter a name for the recording. Then, once they start drawing on the canvas, for as long as the mouse is pressed (continous line drawing) the mouse coordinates are stored in an array 20 times/second. Once the user stops holding the mouse button, the recording functionality ends. At any time, users can press the "clear" button to clear the canvas. If a recording has been made (or loaded by pressing the "load" button and selecting from the available drawings), pressing the "play" button uses the array of coordinates to redraw the painting as it was painted (by procedurally drawing a line to the coordinates 10 times/second), creating the illusion of stop-motion animation. Pressing the "save" button will store the coordinates array, together with the color used and the name given in the global SQL database, allowing them to later be loaded by anyone accessing the app.</p>
+                <h4>Technologies, Libraries, and API's used</h4>
+                <p class="break">The main technology used in this application is HTML 5 Canvas. Additionally, it uses SQL with Sequelize, jQuery, p5.js, Materialize CSS libraries, and Unsplash API.</p>
+                <h4 class="break">GitHub repository: <a href="https://github.com/c-frog/Paint-Brush" target="_blank">HERE</a></h4>
+                <h4 class="break">Deployed site: <a href="https://flintz-skinz-2.herokuapp.com/" target="_blank">HERE</a></h4>
+            </div>
+
+
+
+
+
+        <footer id="flintFoot">
+            <p style="text-align: center;">Copyright Daniel Nester 2019</p> 
+        </footer>
+        </div>
+        <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+</html>

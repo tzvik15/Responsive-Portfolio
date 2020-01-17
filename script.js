@@ -23,6 +23,10 @@ $("#btn5").on("click", ()=>{
     window.location.href="projects/burger.html";
 })
 
+$("#btn6").on("click", ()=>{
+    window.location.href="projects/flintz.html";
+})
+
 localStorage.setItem('first', "nope")
 if(firstTime == null){
   modal.style.display = "block";
