@@ -27,6 +27,10 @@ $("#btn6").on("click", ()=>{
     window.location.href="projects/flintz.html";
 })
 
+$("#btn7").on("click", ()=>{
+    window.location.href="projects/rest.html";
+})
+
 localStorage.setItem('first', "nope")
 if(firstTime == null){
   modal.style.display = "block";

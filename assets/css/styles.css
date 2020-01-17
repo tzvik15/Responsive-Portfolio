@@ -111,16 +111,16 @@ hr {
   height: 1000px;
 }
 #bonezBox {
-  height: 800px;
+  height: 950px;
 }
 #burgerBox {
-  height: 700px;
+  height: 800px;
 }
 #weatherBox {
-  height: 500px;
+  height: 650px;
 }
 #pythonBox {
-  height: 850px;
+  height: 950px;
 }
 #bsnBox {
   height: 700px;
@@ -427,11 +427,14 @@ hr {
   max-width: 100%;
   max-height: 500px;
 }
+#restPic {
+  max-width: 100%;
+  max-height: 500px;
+}
+#restBox {
+  height:750px;
+}
 #burgerPic {
-  /* position: absolute;
-  top: -466px;
-  left: 460px;
-  float: left; */
   max-width: 100%;
   max-height: 500px;
 }
@@ -487,13 +490,16 @@ hr {
   
 }
 #boneFoot {
-  bottom: -350px;
+  bottom: -450px;
 }
 #flintFoot {
   bottom: -550px;
 }
-#burgerFoot {
+#restFoot {
   bottom: -250px;
+}
+#burgerFoot {
+  bottom: -300px;
 }
 #pythonPic {
   max-width: 100%;
@@ -513,14 +519,14 @@ a:hover {
 }
 #pythonFoot {
   position: absolute;
-  bottom: -350px;
+  bottom: -450px;
 }
 #bsnFoot {
   position: absolute;
   bottom: -200px;
 }
 #weatherFoot {
-  bottom: -50px;
+  bottom: -150px;
 }
 
 #btn5 #burgerPop {
