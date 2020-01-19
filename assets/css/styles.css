@@ -716,6 +716,7 @@ a:hover {
   }
   #placeholders {
     margin-top: 50px;
+    height: 1000px;
   }
   #contact {
     margin-top: 50px;
@@ -727,7 +728,7 @@ a:hover {
     bottom: -410px;
   }
   #portFoot {
-    bottom: -400px;
+    bottom: -600px;
   }
   #boneFoot {
     bottom: -550px;
@@ -737,6 +738,36 @@ a:hover {
   }
   #bsnFoot {
     bottom: -380px;
+  }
+  #linkThree {
+    top:330px;
+    left: 0px;
+  }
+  #linkFour {
+    top: 330px;
+    left: 230px;
+  }
+  #linkFive {
+    top: 560px;
+  }
+  #linkSix {
+    top: 560px;
+  }
+  #linkSeven {
+    top: 780px;
+    left: 0;
+  }
+  #flintFoot {
+    bottom: -650px;
+  }
+  #burgerFoot {
+    bottom: -500px;
+  }
+  #restFoot {
+    bottom: -400px;
+  }
+  #weatherFoot {
+    bottom: -300px;
   }
 }
 
@@ -862,7 +893,7 @@ a:hover {
   }
   #placeholders {
     margin-top: 100px;
-    height: 800px;
+    height: 1000px;
   }
  
   #contact {
@@ -888,7 +919,7 @@ a:hover {
     bottom: -450px;
   }
   #portFoot {
-    bottom: -450px;
+    bottom: -650px;
   }
   #boneFoot {
     bottom: -620px;
@@ -902,6 +933,15 @@ a:hover {
   #bsnFoot {
     bottom: -430px;
   }
+  #burgerFoot {
+    bottom: -550px;
+  }
+  #restFoot {
+    bottom: -450px;
+  }
+  #flintFoot {
+    bottom: -700px;
+  }
   #linkThree{
     position: absolute;
     top:1040px;
@@ -913,6 +953,39 @@ a:hover {
     float: left;
     top:805px;
     left:-540px;
+  }
+  #linkOne{
+    position: absolute;
+    top:100px;
+  }
+  #linkTwo {
+    position: absolute;
+    top: 100px;
+  }
+  #linkThree {
+    position: absolute;
+    top: 330px;
+    left:0px;
+  }
+  #linkFour {
+    position: absolute;
+    top: 330px;
+    left:230px;
+  }
+  #linkFive {
+    position: absolute;
+    top: 560px;
+    left:0px;
+  }
+  #linkSix {
+    position: absolute;
+    top: 560px;
+    left:230px;
+  }
+  #linkSeven {
+    position: absolute;
+    top: 790px;
+    left:0px;
   }
 }
 
@@ -933,7 +1006,7 @@ a:hover {
     display: block;
   }
   #box {
-    height: 1830px;
+    height: 1750px;
     width: 100%;
   }
   .navigation {
@@ -968,7 +1041,7 @@ a:hover {
   #pTwo {
     float: none;
     position: absolute;
-    top: 470px;
+    top: 460px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -977,7 +1050,7 @@ a:hover {
   #pThree {
     float: none;
     position: absolute;
-    top: 710px;
+    top: 690px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -986,7 +1059,7 @@ a:hover {
   #pFour {
     float: none;
     position: absolute;
-    top: 880px;
+    top: 850px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -995,7 +1068,7 @@ a:hover {
   #pFive {
     float: none;
     position: absolute;
-    top: 1150px;
+    top: 1100px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -1004,7 +1077,7 @@ a:hover {
   #pSix {
     float: none;
     position: absolute;
-    top: 1470px;
+    top: 1410px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -1013,7 +1086,7 @@ a:hover {
   #pSeven {
     float: none;
     position: absolute;
-    top: 1700px;
+    top: 1630px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -1087,7 +1160,6 @@ a:hover {
   }
   #btn5 {
     position: absolute;
-    /* top: -60px; */
     left: 20px;
   }
   #btn6 {
@@ -1107,6 +1179,32 @@ a:hover {
   #portFoot {
     position: absolute;
     bottom: -1450px;
+  }
+  #flintFoot {
+    position: absolute;
+    bottom: -1200px;
+  }
+  #flintBox {
+    height: 1450px;
+  }
+  #bonezBox {
+    height: 1050px;
+  }
+  #restFoot {
+    position: absolute;
+    bottom: -700px;
+  }
+  #restBox {
+    height: 950px;
+  }
+  #weatherBox {
+    height: 900px;
+  }
+  #pythonBox {
+    height: 1200px;
+  }
+  #bsnBox {
+    height: 550px;
   }
   #btn1:hover #bonezPop,
   #btn2:hover #pythonPop,
@@ -1138,7 +1236,7 @@ a:hover {
     bottom: -420px;
   }
   #indexFoot {
-    bottom: -1850px;
+    bottom: -1550px;
   }
   #contactFoot {
     bottom: -630px;
