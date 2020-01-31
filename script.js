@@ -31,11 +31,3 @@ $("#btn7").on("click", ()=>{
     window.location.href="projects/rest.html";
 })
 
-localStorage.setItem('first', "nope")
-if(firstTime == null){
-  modal.style.display = "block";
-  };
-
-  span.onclick = function() {
-    modal.style.display = "none";
-  }

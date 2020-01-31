@@ -33,7 +33,7 @@
   color: #aa9e9e;
   display: inline;
   font-family: "Arizonia";
-  }
+}
 a:link {
   text-decoration: none;
   color: #777777;
@@ -59,19 +59,9 @@ a:visited {
 html {
   background-image: url(../images/symphony.png);
 }
-footer {
-  background-color: #aa9e9e;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  position: absolute;
-  bottom: -100px;
-  border-top-style: solid;
-  border-color: #883043;
-  border-width: 7px;
-  color: white;
-  width: 100%;
-}
-h2, h4 {
+
+h2,
+h4 {
   color: #883043;
   padding-top: -5px;
   padding-left: 20px;
@@ -106,6 +96,41 @@ hr {
   background-color: #ffffff;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   color: #777777;
+}
+#pOne {
+  position:absolute;
+  top: 100px;
+  left:200px;
+}
+#pTwo {
+  position:absolute;
+  top: 160px;
+  left:200px;
+}
+#pThree {
+  position:absolute;
+  top: 240px;
+  left:200px;
+}
+#pFour {
+  position:absolute;
+  top: 300px;
+  left:0px;
+}
+#pFive {
+  position:absolute;
+  top: 380px;
+  left:0px;
+}
+#pSix {
+  position:absolute;
+  top: 460px;
+  left:0px;
+}
+#pSeven {
+  position:absolute;
+  top: 520px;
+  left:0px;
 }
 #flintBox {
   height: 1000px;
@@ -177,7 +202,7 @@ hr {
 }
 #btn1 {
   position: absolute;
-  left:20px;
+  left: 20px;
   padding-left: 23px;
   padding-right: 23px;
 }
@@ -301,7 +326,6 @@ hr {
   white-space: nowrap;
 }
 
-
 .container .btn5:hover {
   background-color: black;
   cursor: pointer;
@@ -309,7 +333,7 @@ hr {
 .container .btn2 {
   position: absolute;
   top: 0px;
-  left:20px;
+  left: 20px;
   font-size: 16px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -385,10 +409,10 @@ hr {
   background-color: black;
 }
 
-#linkOne{
+#linkOne {
   position: absolute;
-  top:100px;
-  left:0px;
+  top: 100px;
+  left: 0px;
 }
 
 #linkThree {
@@ -399,13 +423,13 @@ hr {
 
 #linkFive {
   position: absolute;
-  top:320px;
+  top: 320px;
 }
 .container .btn6:hover {
   background-color: black;
 }
 
-#linkSix{
+#linkSix {
   position: absolute;
   top: 320px;
   left: 230px;
@@ -432,21 +456,21 @@ hr {
   max-height: 500px;
 }
 #restBox {
-  height:750px;
+  height: 750px;
 }
 #burgerPic {
   max-width: 100%;
   max-height: 500px;
 }
-#linkSeven{
+#linkSeven {
   position: absolute;
   top: 321px;
   left: 460px;
 }
 #linkFour {
   position: absolute;
-  top:100px;
-  left:690px;
+  top: 100px;
+  left: 690px;
 }
 
 #linkFour #btn7:hover {
@@ -487,20 +511,8 @@ hr {
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  
 }
-#boneFoot {
-  bottom: -450px;
-}
-#flintFoot {
-  bottom: -550px;
-}
-#restFoot {
-  bottom: -250px;
-}
-#burgerFoot {
-  bottom: -300px;
-}
+
 #pythonPic {
   max-width: 100%;
   max-height: 500px;
@@ -516,17 +528,6 @@ hr {
 a:hover {
   background-color: #883043;
   color: white;
-}
-#pythonFoot {
-  position: absolute;
-  bottom: -450px;
-}
-#bsnFoot {
-  position: absolute;
-  bottom: -200px;
-}
-#weatherFoot {
-  bottom: -150px;
 }
 
 #btn5 #burgerPop {
@@ -641,7 +642,7 @@ a:hover {
   #pOne {
     float: left;
     position: absolute;
-    top: 100px;
+    top: 90px;
     right: 10px;
     left: 50px;
     margin-left: 170px;
@@ -652,7 +653,7 @@ a:hover {
   #pTwo {
     float: none;
     position: absolute;
-    top: 190px;
+    top: 180px;
     right: 10px;
     left: 50px;
     margin-left: 170px;
@@ -664,6 +665,7 @@ a:hover {
     float: none;
     position: absolute;
     top: 330px;
+    left: 0px;
     max-width: 700px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -700,10 +702,7 @@ a:hover {
     overflow-wrap: break-word;
     word-wrap: break-word;
   }
-  footer {
-    position: absolute;
-    bottom: -350px;
-  }
+
   .contactbox {
     max-width: 600px;
     margin-top: 50px;
@@ -721,26 +720,9 @@ a:hover {
   #contact {
     margin-top: 50px;
   }
-  #indexFoot {
-    bottom: -600px;
-  }
-  #contactFoot {
-    bottom: -410px;
-  }
-  #portFoot {
-    bottom: -600px;
-  }
-  #boneFoot {
-    bottom: -550px;
-  }
-  #pythonFoot {
-    bottom: -580px;
-  }
-  #bsnFoot {
-    bottom: -380px;
-  }
+
   #linkThree {
-    top:330px;
+    top: 330px;
     left: 0px;
   }
   #linkFour {
@@ -756,18 +738,6 @@ a:hover {
   #linkSeven {
     top: 780px;
     left: 0;
-  }
-  #flintFoot {
-    bottom: -650px;
-  }
-  #burgerFoot {
-    bottom: -500px;
-  }
-  #restFoot {
-    bottom: -400px;
-  }
-  #weatherFoot {
-    bottom: -300px;
   }
 }
 
@@ -819,7 +789,8 @@ a:hover {
     float: left;
     position: absolute;
     top: 100px;
-    right: 10px;
+    left: 190px;
+    /* right: 10px; */
     max-width: 350px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -838,6 +809,7 @@ a:hover {
     float: none;
     position: absolute;
     top: 300px;
+    left: 0px;
     max-width: 600px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -861,7 +833,7 @@ a:hover {
   #pSix {
     float: none;
     position: absolute;
-    top: 570px;
+    top: 560px;
     max-width: 600px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -877,10 +849,7 @@ a:hover {
   #box {
     height: 720px;
   }
-  footer {
-    position: absolute;
-    bottom: -600px;
-  }
+
   .contactbox {
     margin-top: 100px;
     max-width: 600px;
@@ -895,7 +864,7 @@ a:hover {
     margin-top: 100px;
     height: 1000px;
   }
- 
+
   #contact {
     margin-top: 100px;
   }
@@ -914,49 +883,22 @@ a:hover {
   .break {
     padding-right: 10px;
   }
-  #contactFoot {
+
+  #linkThree {
     position: absolute;
-    bottom: -450px;
-  }
-  #portFoot {
-    bottom: -650px;
-  }
-  #boneFoot {
-    bottom: -620px;
-  }
-  #weatherFoot {
-    bottom: -400px;
-  }
-  #pythonFoot {
-    bottom: -650px;
-  }
-  #bsnFoot {
-    bottom: -430px;
-  }
-  #burgerFoot {
-    bottom: -550px;
-  }
-  #restFoot {
-    bottom: -450px;
-  }
-  #flintFoot {
-    bottom: -700px;
-  }
-  #linkThree{
-    position: absolute;
-    top:1040px;
-    left:-320px;
+    top: 1040px;
+    left: -320px;
   }
 
-  #linkSeven{
+  #linkSeven {
     position: absolute;
     float: left;
-    top:805px;
-    left:-540px;
+    top: 805px;
+    left: -540px;
   }
-  #linkOne{
+  #linkOne {
     position: absolute;
-    top:100px;
+    top: 100px;
   }
   #linkTwo {
     position: absolute;
@@ -965,27 +907,27 @@ a:hover {
   #linkThree {
     position: absolute;
     top: 330px;
-    left:0px;
+    left: 0px;
   }
   #linkFour {
     position: absolute;
     top: 330px;
-    left:230px;
+    left: 230px;
   }
   #linkFive {
     position: absolute;
     top: 560px;
-    left:0px;
+    left: 0px;
   }
   #linkSix {
     position: absolute;
     top: 560px;
-    left:230px;
+    left: 230px;
   }
   #linkSeven {
     position: absolute;
     top: 790px;
-    left:0px;
+    left: 0px;
   }
 }
 
@@ -1033,6 +975,7 @@ a:hover {
     float: none;
     position: absolute;
     top: 320px;
+    left: 0px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -1042,6 +985,7 @@ a:hover {
     float: none;
     position: absolute;
     top: 460px;
+    left: 0px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -1051,6 +995,7 @@ a:hover {
     float: none;
     position: absolute;
     top: 690px;
+    left: 0px;
     max-width: 250px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -1095,26 +1040,19 @@ a:hover {
   #mepic {
     margin-left: -10px;
   }
-  footer {
-    position: absolute;
-    bottom: -1330px;
-  }
-  
+
   .contactbox {
     margin-top: 170px;
     max-width: 250px;
   }
-  #contactFoot {
-    position: absolute;
-    bottom: -430px;
-  }
+
   input {
     max-width: 230px;
   }
   textarea {
     max-width: 230px;
   }
- 
+
   #linkSix {
     float: none;
     position: absolute;
@@ -1176,24 +1114,14 @@ a:hover {
   #placeholders {
     height: 1750px;
   }
-  #portFoot {
-    position: absolute;
-    bottom: -1450px;
-  }
-  #flintFoot {
-    position: absolute;
-    bottom: -1200px;
-  }
+
   #flintBox {
     height: 1450px;
   }
   #bonezBox {
     height: 1050px;
   }
-  #restFoot {
-    position: absolute;
-    bottom: -700px;
-  }
+
   #restBox {
     height: 950px;
   }
@@ -1215,38 +1143,13 @@ a:hover {
   #btn7:hover #restPop {
     visibility: hidden;
   }
-  #boneFoot {
-    position: absolute;
-    bottom: -770px;
-  }
-  #pythonFoot {
-    position: absolute;
-    bottom: -970px;
-  }
-  #weatherFoot {
-    position: absolute;
-    bottom: -690px;
-  }
-  #burgerFoot {
-    position: absolute;
-    bottom: -500px;
-  }
-  #bsnFoot {
-    position: absolute;
-    bottom: -420px;
-  }
-  #indexFoot {
-    bottom: -1550px;
-  }
-  #contactFoot {
-    bottom: -630px;
-  }
+
   #p1 {
     margin-top: 100px;
   }
-  #linkOne{
+  #linkOne {
     position: absolute;
-    top:-550px;
+    top: -550px;
   }
   #linkTwo {
     position: absolute;
@@ -1255,29 +1158,26 @@ a:hover {
   #linkThree {
     position: absolute;
     top: 520px;
-    left:0px;
+    left: 0px;
   }
   #linkFour {
     position: absolute;
     top: 740px;
-    left:0px;
+    left: 0px;
   }
   #linkFive {
     position: absolute;
     top: 960px;
-    left:0px;
+    left: 0px;
   }
   #linkSix {
     position: absolute;
     top: 1180px;
-    left:0px;
+    left: 0px;
   }
   #linkSeven {
     position: absolute;
     top: 1400px;
-    left:0px;
+    left: 0px;
   }
-
-
 }
-
