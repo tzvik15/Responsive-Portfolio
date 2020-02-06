@@ -28,7 +28,24 @@
                 <p class="break" id="pFour">I took my first steps as a developer at the University of Denver, where I immedietly began encorporating my thoughts and ideas on collaborative work into my studies, collaborating on projects, and working with my cohort members to help and support each other in our journey as developers.</p>
                 <p class="break" id="pFive">As a developer, I am passionate about using JavaScript to find creative solutions to coding challenges. An example of my JS can be seen in my "Bone'z Beatz" project, where I used JS to connect dynamically between sound files and key strokes, creating a fully custumizable soundboard application. (more about this project <a href="projects/bonez.html">HERE</a>)</p>
                 <p class="break" id="pSix">As my client, I will work together with you, collaborating to realize the projects you envision, providing you with the best quality and support, and the knowledge that the final product will truely be a part and representation of YOU and YOUR needs.</p>
-                <p class="break" id="pSeven">You can see examples of my projects in the <a href="portfolio.html">portfolio</a> section. <a href="https://github.com/tzvik15" target="_blank">THIS</a> is a link to my GitHub page, and <a href="./assets/documents/Coding Resume.pdf" download target="_blank">HERE</a> you can download my resume.</p>
+                <p class="break" id="pSeven">You can see examples of my projects in the <a href="portfolio.html">portfolio</a> section. <a href="https://github.com/tzvik15" target="_blank">THIS</a> is a link to my GitHub page, <a href="https://www.linkedin.com/in/daniel-nester-aa074a189/" target="_blank">THIS</a> is a link to my LinkedIn page, and <a href="./assets/documents/Coding Resume.pdf" download target="_blank">HERE</a> you can download my resume. For my technical skills and proficiencies, click <a id="techModal">HERE.</a></p>
+                <div id="tModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close-btn">&times;</span>
+                      <p><h3>Programing Languages Known:</h3> HTML 5, CSS, JavaScript (ES6) <br>
+                        <h3>Front End:</h3> REST API queries, 3rd party JS and CSS library integration, deployment of web pages <br>
+                        <h3>Back End: </h3>Node.js, Express servers, REST API creation, NPM, Handlebars, Sequelize <br>
+                        <h3>Cross Stack: </h3>jQuery, Test Driven Development with Jest, mySQL, Object Oriented Programming, MongoDB and Mongoose, PWA creation (including offline support) <br>
+                        <h3>In Development:</h3> Python, React.js <br>
+                      </p>
+                      <p>
+                        To see these skills in use, please click <a href="portfolio.html">HERE</a>.
+                        </p>
+                    </div>
+                  
+                  </div>
             </section>
        
         
@@ -43,5 +60,32 @@
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script>
+    var modal2 = document.getElementById("tModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("techModal");
+
+// Get the <span> element that closes the modal
+var span2 = document.getElementsByClassName("close-btn")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal2.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span2.onclick = function() {
+  modal2.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal2.style.display = "none";
+  }
+} 
+    
+    </script>
 </body>
     </html>
